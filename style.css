@@ -1,0 +1,48 @@
+body {
+    color: #ead6bd;
+    /* background-color: #065634; */
+    background-image: linear-gradient(to right,#7b8266, #065634);
+}
+
+h1 {
+    text-align: center;
+    font-family: "Exo 2", serif;
+        font-optical-sizing: auto;
+        font-weight: 550;
+        font-style: normal;
+}
+
+h3 {
+    text-align: center;
+        font-family: "Exo 2", serif;
+        font-optical-sizing: auto;
+        font-weight: 450;
+        font-style: normal;     
+}
+
+a {
+    text-decoration: none;
+    color: #ead6bd;
+}
+
+img {
+    padding-left: 7%;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+li {
+    width: 350px;
+    box-shadow: 3px 3px 5px 2px #ead6bd;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: #636139;
+}
